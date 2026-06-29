@@ -1,0 +1,89 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.navbar-brand {
+  font-size: 2rem;
+  color: black;
+  font-family: "Oleo Script", system-ui;
+}
+.navbar-brand img{
+  width: 100px;
+  height: 100px;
+  border: none;
+  border-radius: 50%;
+}
+
+.navbar-brand:hover {
+  color: black;
+}
+.nav-link {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family: "Sofia Sans", sans-serif;
+  color: black;
+  text-transform: uppercase;
+}
+.nav-link:hover {
+  color: aqua;
+}
+.search {
+  height: 40px;
+  width: 80%;
+  border-radius: 60px;
+  margin-right: -35px;
+  font-family: "Sofia Sans", sans-serif;
+  outline: none;
+  border: 2px solid rgb(214, 10, 10);
+}
+.btn0 {
+  height: 40px;
+  width: 40%;
+  outline: none;
+  border: none;
+  background: rgb(208, 45, 72);
+  color: white;
+  font-weight: 700;
+  border-radius: 60px;
+}
+.main {
+  background: url(https://nutriscan.app/calories-nutrition/images/amok-trey-a8f3e.webp)
+    no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+  background-position: 50% 50%;
+  width: 100%;
+}
+.main h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  font-family: "Oleo Script", system-ui;
+}
+.btn1{
+    height: 45px;
+    width: 30%;
+    border: none;
+    outline: none;
+    background-color:rgb(208, 45, 72) ;
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}
+.new img{
+    width: 150px;
+    height: 150px;
+}
+h1{
+  font-weight: 700;
+}
+.btn1:hover{
+  background-color: rgb(202, 19, 80);
+  transition:0.5s;
+}
+.card:hover{
+  -webkit-box-shadow: 0px 10px 13px -7px #000000, 12px 4px 26px 7px rgba(0,0,0,0.31); 
+box-shadow: 0px 10px 13px -7px #000000, 12px 4px 26px 7px rgba(0,0,0,0.31);
+}
